@@ -11,3 +11,6 @@ D:\Dropbox\dania\basis programmering\Projekt\Minesweeper\Minesweeper\obj\Debug\M
 D:\Dropbox\dania\basis programmering\Projekt\Minesweeper\Minesweeper\bin\Debug\Minesweeper.exe
 D:\Dropbox\dania\basis programmering\Projekt\Minesweeper\Minesweeper\bin\Debug\Minesweeper.pdb
 D:\Dropbox\dania\basis programmering\Projekt\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csprojResolveAssemblyReference.cache
+C:\Users\JshReaper\Documents\ConsoleMinesweeper\Minesweeper\bin\Debug\Minesweeper.exe.config
+C:\Users\JshReaper\Documents\ConsoleMinesweeper\Minesweeper\obj\Debug\Minesweeper.exe
+C:\Users\JshReaper\Documents\ConsoleMinesweeper\Minesweeper\obj\Debug\Minesweeper.pdb

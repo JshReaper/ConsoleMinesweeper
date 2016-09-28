@@ -1,0 +1,6 @@
+C:\Users\JshReaper\Documents\ConsoleMinesweeper\Minesweeper\bin\Release\Minesweeper.exe.config
+C:\Users\JshReaper\Documents\ConsoleMinesweeper\Minesweeper\bin\Release\Minesweeper.exe
+C:\Users\JshReaper\Documents\ConsoleMinesweeper\Minesweeper\bin\Release\Minesweeper.pdb
+C:\Users\JshReaper\Documents\ConsoleMinesweeper\Minesweeper\obj\Release\Minesweeper.csprojResolveAssemblyReference.cache
+C:\Users\JshReaper\Documents\ConsoleMinesweeper\Minesweeper\obj\Release\Minesweeper.exe
+C:\Users\JshReaper\Documents\ConsoleMinesweeper\Minesweeper\obj\Release\Minesweeper.pdb
