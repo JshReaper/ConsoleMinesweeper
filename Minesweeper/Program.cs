@@ -315,7 +315,7 @@ namespace Minesweeper
                 mPlayerInput = Console.ReadLine();
                 int intInput;
                 bool inputIsInt = Int32.TryParse(mPlayerInput, out intInput);
-                if (inputIsInt)
+                if (inputIsInt && intInput < mBoard.GetLength(1) + 1)
                 {
                     int tempPlayerInput = Convert.ToInt32(mPlayerInput);
                     int y = tempPlayerInput - 1;
@@ -323,7 +323,7 @@ namespace Minesweeper
                     Console.WriteLine("enter y cord");
                     mPlayerInput = Console.ReadLine();
                     inputIsInt = Int32.TryParse(mPlayerInput, out intInput);
-                    if (inputIsInt)
+                    if (inputIsInt && intInput < mBoard.GetLength(0) + 1)
                     {
 
                         tempPlayerInput = Convert.ToInt32(mPlayerInput);
@@ -367,19 +367,19 @@ namespace Minesweeper
                     Console.WriteLine("Enter the x cord of the flag");
                     mPlayerInput = Console.ReadLine();
                     inputIsInt = Int32.TryParse(mPlayerInput, out intInput);
-                    if (inputIsInt)
+                    if (inputIsInt && intInput < mBoard.GetLength(1) + 1)
                     {
                         int tempPlayerInput = Convert.ToInt32(mPlayerInput);
-                        int x = tempPlayerInput - 1;
-                        int y;
+                        int y = tempPlayerInput - 1;
+                        int x;
                         Console.WriteLine("enter y cord of the flag");
                         mPlayerInput = Console.ReadLine();
                         inputIsInt = Int32.TryParse(mPlayerInput, out intInput);
-                        if (inputIsInt)
+                        if (inputIsInt && intInput < mBoard.GetLength(0) + 1)
                         {
 
                             tempPlayerInput = Convert.ToInt32(mPlayerInput);
-                            y = tempPlayerInput - 1;
+                            x = tempPlayerInput - 1;
                             if (mBoard[x, y] == '#')
                             mBoard[x, y] = '?';
                             else if (mBoard[x,y] != '#')
